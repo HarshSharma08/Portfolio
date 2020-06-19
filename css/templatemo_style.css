@@ -1,7 +1,3 @@
-/*
-Composite Template 
-http://www.templatemo.com/preview/templatemo_444_composite
-*/
 
 
 .social_icon .navi{
@@ -18,7 +14,6 @@ body
 	position: relative;
 }
 
-/* start templatemo page container */
 @media (min-width: 768px) {
 	.container { width: 700px; }
 }
@@ -28,7 +23,6 @@ body
 @media (min-width: 1200px) {
 	.container { width: 1000px;	}
 }
-/* end templatemo page container */
 
 .blue {
 	color: #06C;
@@ -38,7 +32,7 @@ body
 	color: #090;
 }
 
-/* start templatemo navigation */
+
 .navbar-default
 {
 	background: #FFF;
@@ -89,9 +83,7 @@ body
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus { background-color: transparent }
-/* end templatemo navigation */
 
-/* start templatemo header background slideshow */
 #home { padding-top: 65px; }
 .flexslider {
 	margin: 0 0 60px;
@@ -167,7 +159,6 @@ body
 	border: 2px solid transparent;
 }
 
-/* start templatemo features */
 .features
 {
 	background: #F9F9F9;
@@ -207,9 +198,6 @@ body
 	-ms-transform: rotate(360deg);
 	transform: rotate(360deg);
 }
-/* end templatemo features */
-
-/* start templatemo about */
 #about
 {
 	color: #333;
@@ -235,9 +223,6 @@ body
 	margin: 10px 0 16px 0;
 }
 #about .progress .progress-bar-success { background: #ffa400; }
-/* end templatemo about */
-
-/* start templatemo team */
 #team
 {
 	background: #F9F9F9;
@@ -276,9 +261,6 @@ body
 	transform: scale(0.9);
 	opacity: 0.7;
 }
-/* end templatemo team */
-
-/* start templatemo portfolio */
 #portfolio
 {
 	text-align: center;
@@ -332,9 +314,6 @@ body
 	left: 0;
 }
 #portfolio .image_thumb a:hover { text-decoration: none; }
-/* end templatemo portfolio */
-
-/* start templatemo contact */
 #contact
 {
 	background: #303030;
@@ -393,9 +372,6 @@ a:hover, a:active
 	color: #ffd485;
 	text-decoration: none;
 }
-/* end templatemo contact */
-
-/* start templatemo footer */
 footer
 {
 	border-top: 1px solid #404040;
@@ -423,9 +399,6 @@ footer .social_icon a:hover
 	border-color: transparent;
 	background: #ffa400;
 }
-/* end templatemo footer */
-
-/* starttemplatemo  go top */
 .go-top 
 {
 	background-color: #ffa400;
@@ -442,14 +415,12 @@ footer .social_icon a:hover
 	text-align: center;
 }
 .go-top:hover {	color: #F9F9F9; }
-/* end templatemo go top */
 
 @media only screen and (max-width: 1199px) {
 	.flexslider h1 { font-size: 30px; }
 	.flexslider h2 { font-size: 24px; }
 }
 
-/* start templatemo 768 media quires */
 @media only screen and ( max-width: 768px ) {
 	.navbar-default .navbar-brand {	margin-left: 20px; }
 	.navbar-default .navbar-nav	{ margin: 0; }
@@ -467,14 +438,8 @@ footer .social_icon a:hover
 		padding-top: 8px;
 	}
 }
-/* end templatemo 768 media quires */
-
-/* start templatemo 680 media quires */
 @media only screen and ( max-width: 680px ) {
 	.navbar-default .navbar-nav li a { border-bottom: 1px solid #f6f6f6; line-height: normal; height: 40px; }
-/* end templatemo 680 media quires */
-
-/* start templatemo 600 media quires */
 @media only screen and ( max-width: 640px ) {	
 	.flexslider h1 { font-size: 20px; }
 	.flexslider h2 { font-size: 14px; }
@@ -485,4 +450,3 @@ footer .social_icon a:hover
 		margin-top: 10px; 
 	}
 }
-/* end templatemo 600 media quires */
